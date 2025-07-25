@@ -24,9 +24,9 @@ plot_annual_trends(df, agency="SSHRC")
 
 #### Outcomes
 
-![Annual SSHRC Funding and Awards Trends for Ontario Universities (2005-2021)](images\sshrc_trends.png)
+![Annual SSHRC Funding and Awards Trends for Ontario Universities (2005-2021)](images/sshrc_trends.png)
 
-![Top & Bottom 5 Universities by Funding CAGR(%)](images\sshrc_cagr.png)
+![Top & Bottom 5 Universities by Funding CAGR(%)](images/sshrc_cagr.png)
 
 ### II. Comparative Analysis Between Institutions
 
@@ -36,7 +36,7 @@ top_bottom_universities(df, agency="SSHRC")
 
 #### Outcomes
 
-![Top & Bottom 8 Universities by Total SSHRC Funding](images\sshrc_top_bot_funding.png)
+![Top & Bottom 8 Universities by Total SSHRC Funding](images/sshrc_top_bot_funding.png)
 
 **SSHRC Funding Concentration Analysis:**
 - Top 3 universities account for 47.9% of total funding
@@ -51,7 +51,7 @@ agency_specific_analysis(df, agency="SSHRC")
 
 #### Outcomes
 
-![SSHRC Funding by University](images\sshrc_univ.png)
+![SSHRC Funding by University](images/sshrc_univ.png)
 
 
 ### IV. Statistical Modeling & Forecasting
@@ -62,7 +62,7 @@ funding_forecasting(df, agency="SSHRC")
 
 #### Outcomes
 
-![SSHRC Funding Trends and Forecasts](images\sshrc_forecasts.png)
+![SSHRC Funding Trends and Forecasts](images/sshrc_forecasts.png)
 
 ### V. Statistical and Advanced Analysis
 
@@ -72,7 +72,7 @@ advanced_analysis(df, agency="SSHRC")
 
 #### Outcomes
 
-![University Clusters by SSHRC Funding](images\sshrc_clusters.png)
+![University Clusters by SSHRC Funding](images/sshrc_clusters.png)
 
 ### VI. Benchmarking and Efficiency Metrics
 
@@ -82,4 +82,4 @@ efficiency_metrics(df, agency="SSHRC")
 
 #### Outcomes
 
-![Number of Universities Receiving >10M Annually from SSHRC](images\sshrc_10m.png)
+![Number of Universities Receiving >10M Annually from SSHRC](images/sshrc_10m.png)

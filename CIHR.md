@@ -21,9 +21,9 @@ plot_annual_trends(df, agency="CIHR")
 
 #### Outcomes
 
-![Annual CIHR Funding and Awards Trends for Ontario Universities (2005-2021)](images\cihr_trends.png)
+![Annual CIHR Funding and Awards Trends for Ontario Universities (2005-2021)](images/cihr_trends.png)
 
-![University-Specific CIHR Funding Trends (2005-2021)](images\cihr_univ_trends.png)
+![University-Specific CIHR Funding Trends (2005-2021)](images/cihr_univ_trends.png)
 
 ### II. Comparative Analysis Between Institutions
 
@@ -33,7 +33,7 @@ top_bottom_universities(df, agency="CIHR")
 
 #### Outcomes
 
-![Top & Bottom 8 Universities by Total CIHR Funding](images\cihr_top_bot_funding.png)
+![Top & Bottom 8 Universities by Total CIHR Funding](images/cihr_top_bot_funding.png)
 
 **CIHR Funding Concentration Analysis:**
 - Top 3 universities account for 79.4% of total funding
@@ -48,7 +48,7 @@ agency_specific_analysis(df, agency="CIHR")
 
 #### Outcomes
 
-![CIHR Funding by University](images\cihr_univ.png)
+![CIHR Funding by University](images/cihr_univ.png)
 
 
 ### IV. Statistical Modeling & Forecasting
@@ -59,7 +59,7 @@ funding_forecasting(df, agency="CIHR")
 
 #### Outcomes
 
-![CIHR Funding Trends and Forecasts](images\cihr_forecasts.png)
+![CIHR Funding Trends and Forecasts](images/cihr_forecasts.png)
 
 ### V. Statistical and Advanced Analysis
 
@@ -69,7 +69,7 @@ advanced_analysis(df, agency="CIHR")
 
 #### Outcomes
 
-![University Clusters by CIHR Funding](images\cihr_clusters.png)
+![University Clusters by CIHR Funding](images/cihr_clusters.png)
 
 ### VI. Benchmarking and Efficiency Metrics
 
@@ -79,4 +79,4 @@ efficiency_metrics(df, agency="CIHR")
 
 #### Outcomes
 
-![Number of Universities Receiving >10M Annually from CIHR](images\cihr_10m.png)
+![Number of Universities Receiving >10M Annually from CIHR](images/cihr_10m.png)
