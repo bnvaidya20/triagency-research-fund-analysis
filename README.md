@@ -126,7 +126,7 @@ def efficiency_metrics(df, agency=None):
     threshold = 10e6  # $10 million
     above_threshold = df[df['Funding'] > threshold].groupby('Year')['University'].count()
     above_threshold.plot(kind='bar')
-    plt.title(f'Number of Universities Receiving >${threshold/1e6:.0f}M Annually')
+    plt.title(f'Number of Universities Receiving >${threshold/1e6:.0f}M Annually from {agency}')    
     plt.show()
 ```
 
